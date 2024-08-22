@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  trailingSlash: true,  // 为每个路由生成一个 index.html 文件
   output: 'export',  // 启用静态HTML导出
   distDir: 'dist', 
   images: {
